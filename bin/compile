@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
-shopt -s dotglob
+#shopt -s dotglob
+shopt -s nullglob
 set -e
 
 # ------------------------------------------------------------------------------------------------
